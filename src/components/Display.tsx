@@ -1,13 +1,6 @@
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 
-interface DisplayProps {
-    valor: string
-    memoria: string
-}
-
-
-
-export default function Display({valor , memoria}: DisplayProps) {
+export default function Display({valor, memoria}: DisplayProps) {
     useEffect(() => {}, [valor, memoria])
 
     return (
